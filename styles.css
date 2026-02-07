@@ -65,12 +65,13 @@ a, button, .hamburger, .btn-primary, .nav-link {
 
 body {
     font-family: var(--font-body);
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.65;
     letter-spacing: 0.01em;
     color: var(--text-medium);
     background-color: var(--primary-bg);
     overflow-x: hidden;
+   -webkit-text-stroke: 0.2px rgba(0, 0, 0, 0.1);
 }
 
 ::selection {
@@ -244,7 +245,7 @@ body {
     font-size: 1.05rem;
     margin-bottom: 2.5rem;
     color: var(--text-gray);
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.7;
     max-width: 600px;
     margin-left: auto;
@@ -355,14 +356,14 @@ body {
 
 .lead-text {
     font-size: 1.05rem !important;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--text-dark) !important;
     line-height: 1.75 !important;
 }
 
 .highlight-text {
     font-size: 0.95rem !important;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--brand-navy) !important;
     padding: 24px 32px;
     background: rgba(24, 57, 100, 0.04);
@@ -709,6 +710,10 @@ body {
         --section-padding: 72px;
     }
 
+   body {
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
+   
     .hamburger {
         display: flex;
     }
