@@ -437,7 +437,7 @@ body {
 .bio-intro h3 {
     font-family: var(--font-heading);
     font-size: 1.35rem;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--brand-navy);
     margin-bottom: 0.4rem;
     letter-spacing: 3px;
@@ -447,7 +447,7 @@ body {
 .bio-title {
     font-size: 0.9rem;
     color: var(--text-dark);
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1.5px;
     text-transform: uppercase;
 }
@@ -493,7 +493,7 @@ body {
 .bio-section h4 {
     font-family: var(--font-heading);
     font-size: 0.8rem;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--brand-navy);
     margin-bottom: 1.25rem;
     text-transform: uppercase;
@@ -581,7 +581,7 @@ body {
 .exp-column h3 {
     font-family: var(--font-heading);
     font-size: 0.8rem;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--brand-navy);
     margin-bottom: 1.5rem;
     text-transform: uppercase;
@@ -664,7 +664,7 @@ body {
     color: var(--primary-bg);
     text-decoration: none;
     font-family: var(--font-body);
-    font-weight: 300;
+    font-weight: 400;
     transition: var(--transition);
     letter-spacing: 0.5px;
 }
