@@ -65,7 +65,7 @@ a, button, .hamburger, .btn-primary, .nav-link {
 
 body {
     font-family: var(--font-body);
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.65;
     letter-spacing: 0.01em;
     color: var(--text-medium);
@@ -107,7 +107,7 @@ body {
 .nav-brand {
     font-family: var(--font-heading);
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--primary-bg);
     letter-spacing: 1.5px;
     display: flex;
@@ -136,7 +136,7 @@ body {
     color: rgba(255, 255, 255, 0.85);
     text-decoration: none;
     font-family: var(--font-heading);
-    font-weight: 300;
+    font-weight: 400;
     font-size: 0.8rem;
     letter-spacing: 1.5px;
     text-transform: uppercase;
@@ -244,7 +244,7 @@ body {
     font-size: 1.05rem;
     margin-bottom: 2.5rem;
     color: var(--text-gray);
-    font-weight: 300;
+    font-weight: 400;
     line-height: 1.7;
     max-width: 600px;
     margin-left: auto;
@@ -261,7 +261,7 @@ body {
     text-decoration: none;
     border-radius: 4px;
     font-family: var(--font-heading);
-    font-weight: 400;
+    font-weight: 500;
     font-size: 0.78rem;
     transition: var(--transition);
     text-transform: uppercase;
@@ -299,7 +299,7 @@ body {
 .section-title {
     font-family: var(--font-heading);
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 400;
     text-align: center;
     margin-bottom: 1rem;
     color: var(--brand-navy);
@@ -380,7 +380,7 @@ body {
     justify-content: center;
     color: rgba(255, 255, 255, 0.8);
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 500;
     letter-spacing: 1px;
     text-transform: uppercase;
     box-shadow: var(--shadow-md);
@@ -397,7 +397,7 @@ body {
 .bio-intro h3 {
     font-family: var(--font-heading);
     font-size: 1.15rem;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--brand-navy);
     margin-bottom: 0.25rem;
     letter-spacing: 2px;
@@ -407,7 +407,7 @@ body {
 .bio-title {
     font-size: 0.8rem;
     color: var(--text-gray);
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 1.5px;
     text-transform: uppercase;
 }
@@ -420,7 +420,7 @@ body {
     color: var(--text-gray);
     text-decoration: none;
     font-size: 0.75rem;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 0.5px;
     transition: var(--transition-fast);
 }
@@ -447,14 +447,14 @@ body {
 
 .lead-text {
     font-size: 1.05rem !important;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--text-dark) !important;
     line-height: 1.75 !important;
 }
 
 .highlight-text {
     font-size: 0.95rem !important;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--brand-navy) !important;
     padding: 24px 32px;
     background: rgba(24, 57, 100, 0.04);
@@ -479,7 +479,7 @@ body {
 .bio-section h4 {
     font-family: var(--font-heading);
     font-size: 0.8rem;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--brand-navy);
     margin-bottom: 1.25rem;
     text-transform: uppercase;
@@ -493,7 +493,7 @@ body {
 }
 
 .edu-degree {
-    font-weight: 400;
+    font-weight: 500;
     color: var(--text-dark);
     margin-bottom: 0.25rem;
     font-size: 0.92rem;
@@ -567,7 +567,7 @@ body {
 .exp-column h3 {
     font-family: var(--font-heading);
     font-size: 0.8rem;
-    font-weight: 300;
+    font-weight: 400;
     color: var(--brand-navy);
     margin-bottom: 1.5rem;
     text-transform: uppercase;
@@ -650,7 +650,7 @@ body {
     color: var(--primary-bg);
     text-decoration: none;
     font-family: var(--font-body);
-    font-weight: 300;
+    font-weight: 400;
     transition: var(--transition);
     letter-spacing: 0.5px;
 }
