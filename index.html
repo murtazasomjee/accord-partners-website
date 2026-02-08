@@ -66,17 +66,7 @@
                 </div>
 
                 <div class="bio-text-wrap fade-in">
-                    <p class="lead-text">Accord Partners is an international arbitration consultancy. Its name reflects its core philosophy: to strategically and meticulously seek ‘accord’ when disputes arise.</p>
-
-                    <p>Founded and led by Managing Partner, Aditya Kurian, the consultancy is dedicated to providing value to clients in international commercial arbitrations.</p>
-
-                    <p class="highlight-text">By providing premium international arbitration expertise through bespoke fee arrangements, we offer superior value to our clients.</p>
-
-                    <p>Aditya Kurian brings more than a decade of international commercial arbitration experience from the world’s leading arbitral institutions and elite international law firms, offering clients sophisticated expertise in international commercial arbitration.</p>
-
-                    <p>Prior to founding Accord Partners, he was a Senior Counsel in the international disputes and arbitration group at O’Melveny & Myers LLP in Hong Kong. There, he represented clients across a broad spectrum of international commercial arbitrations, conducting oral advocacy before international arbitral tribunals and cross-examining witnesses.</p>
-
-                    <p>Before joining O’Melveny & Myers LLP, Aditya gained deep institutional expertise during his tenure as Counsel at the Hong Kong International Arbitration Centre (HKIAC), where he administered over 200 international commercial arbitrations, and at the Secretariat of the ICC International Court of Arbitration, where he gained invaluable insights into the ICC’s Rules and practices.</p>
+                    <p>Accord Partners is an international arbitration consultancy founded by Managing Partner Aditya Kurian, dedicated to providing value to clients in international commercial arbitrations. Aditya brings more than a decade of international commercial arbitration experience from the world’s leading arbitral institutions and elite international law firms, offering clients sophisticated expertise in international commercial arbitration. Prior to founding Accord Partners, he was a Senior Counsel in the international disputes and arbitration group at O’Melveny & Myers LLP in Hong Kong, where he represented clients across a broad spectrum of international commercial arbitrations, conducting oral advocacy before international arbitral tribunals and cross-examining witnesses. Before joining O’Melveny & Myers LLP, Aditya gained deep institutional expertise during his tenure as Counsel at the Hong Kong International Arbitration Centre (HKIAC), where he administered over 200 international commercial arbitrations, and at the Secretariat of the ICC International Court of Arbitration, where he gained invaluable insights into the ICC’s Rules and practices.</p>
 
                     <p>Aditya is admitted in England & Wales, Hong Kong (non-practising) and India. He is a permanent member of the ICC International Court of Arbitration National Committee Nominations Commission for Hong Kong. He was formerly a member of the ICC-HK Arbitration and ADR Committee (2020-2024) and the HKIAC Steering Committee for young arbitration professionals in Asia and beyond: HK45 (2021-2023).</p>
 
@@ -227,7 +217,6 @@
             navMenu.classList.toggle('active');
         });
 
-        // Close menu when a nav link is clicked
         navLinks.forEach(link => {
             link.addEventListener('click', () => {
                 hamburger.classList.remove('active');
@@ -235,7 +224,6 @@
             });
         });
 
-        // Close menu when clicking outside
         document.addEventListener('click', (e) => {
             if (!hamburger.contains(e.target) && !navMenu.contains(e.target)) {
                 hamburger.classList.remove('active');
@@ -269,7 +257,6 @@
             partnerPhoto.addEventListener('load', () => {
                 partnerPhoto.classList.add('loaded');
             });
-            // Check if already loaded (cached)
             if (partnerPhoto.complete && partnerPhoto.naturalHeight > 0) {
                 partnerPhoto.classList.add('loaded');
             }
