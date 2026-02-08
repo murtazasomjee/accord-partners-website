@@ -65,13 +65,12 @@ a, button, .hamburger, .btn-primary, .nav-link {
 
 body {
     font-family: var(--font-body);
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.65;
     letter-spacing: 0.01em;
     color: var(--text-medium);
     background-color: var(--primary-bg);
     overflow-x: hidden;
-   -webkit-text-stroke: 0.2px rgba(0, 0, 0, 0.1);
 }
 
 ::selection {
@@ -245,7 +244,7 @@ body {
     font-size: 1.05rem;
     margin-bottom: 2.5rem;
     color: var(--text-gray);
-    font-weight: 400;
+    font-weight: 300;
     line-height: 1.7;
     max-width: 600px;
     margin-left: auto;
@@ -335,70 +334,27 @@ body {
     border-radius: 1px;
 }
 
-/* ===== About Section ===== */
+/* ===== About Section (Merged with Biography) ===== */
 .about-section {
-    background-color: var(--primary-bg);
-    border-bottom: 1px solid var(--border-light);
-}
-
-.about-content {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
-}
-
-.about-content p {
-    font-size: 1.02rem;
-    line-height: 1.8;
-    margin-bottom: 1.75rem;
-    color: var(--text-medium);
-}
-
-.lead-text {
-    font-size: 1.05rem !important;
-    font-weight: 400;
-    color: var(--text-dark) !important;
-    line-height: 1.75 !important;
-}
-
-.highlight-text {
-    font-size: 0.95rem !important;
-    font-weight: 400;
-    color: var(--brand-navy) !important;
-    padding: 24px 32px;
-    background: rgba(24, 57, 100, 0.04);
-    border-left: 3px solid var(--brand-red);
-    border-radius: 0 8px 8px 0;
-    margin-top: 2.5rem;
-    line-height: 1.8 !important;
-    text-align: left;
-}
-
-/* ===== Biography Section ===== */
-.biography-section {
     background-color: var(--secondary-bg);
-    position: relative;
-    border-top: 1px solid var(--border-light);
     border-bottom: 1px solid var(--border-light);
+    border-top: 1px solid var(--border-light);
 }
 
-.biography-content {
+.about-bio-content {
     max-width: 920px;
     margin: 0 auto;
 }
 
-.bio-header {
-    display: flex;
-    align-items: center;
-    gap: 2.5rem;
-    margin-bottom: 3rem;
-    padding-bottom: 2.5rem;
-    border-bottom: 1px solid var(--border-light);
+.bio-float {
+    float: left;
+    margin-right: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
 }
 
 .bio-image {
     position: relative;
-    flex-shrink: 0;
 }
 
 .bio-image img {
@@ -434,20 +390,24 @@ body {
     display: none;
 }
 
+.bio-intro {
+    margin-top: 1rem;
+}
+
 .bio-intro h3 {
     font-family: var(--font-heading);
-    font-size: 1.35rem;
-    font-weight: 400;
+    font-size: 1.15rem;
+    font-weight: 300;
     color: var(--brand-navy);
-    margin-bottom: 0.4rem;
-    letter-spacing: 3px;
+    margin-bottom: 0.25rem;
+    letter-spacing: 2px;
     text-transform: uppercase;
 }
 
 .bio-title {
-    font-size: 0.9rem;
-    color: var(--text-dark);
-    font-weight: 400;
+    font-size: 0.8rem;
+    color: var(--text-gray);
+    font-weight: 300;
     letter-spacing: 1.5px;
     text-transform: uppercase;
 }
@@ -456,10 +416,10 @@ body {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    margin-top: 0.75rem;
+    margin-top: 0.5rem;
     color: var(--text-gray);
     text-decoration: none;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: 300;
     letter-spacing: 0.5px;
     transition: var(--transition-fast);
@@ -470,15 +430,40 @@ body {
 }
 
 .linkedin-icon {
-    width: 16px;
-    height: 16px;
+    width: 14px;
+    height: 14px;
 }
 
-.bio-text p {
+.bio-text-wrap {
+    overflow: hidden;
+}
+
+.bio-text-wrap p {
     font-size: 0.95rem;
     line-height: 1.75;
     margin-bottom: 1.4rem;
     color: var(--text-medium);
+}
+
+.lead-text {
+    font-size: 1.05rem !important;
+    font-weight: 300;
+    color: var(--text-dark) !important;
+    line-height: 1.75 !important;
+}
+
+.highlight-text {
+    font-size: 0.95rem !important;
+    font-weight: 300;
+    color: var(--brand-navy) !important;
+    padding: 24px 32px;
+    background: rgba(24, 57, 100, 0.04);
+    border-left: 3px solid var(--brand-red);
+    border-radius: 0 8px 8px 0;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem !important;
+    line-height: 1.8 !important;
+    clear: both;
 }
 
 .bio-sections {
@@ -488,12 +473,13 @@ body {
     margin-top: 3rem;
     padding-top: 3rem;
     border-top: 1px solid var(--border-light);
+    clear: both;
 }
 
 .bio-section h4 {
     font-family: var(--font-heading);
     font-size: 0.8rem;
-    font-weight: 400;
+    font-weight: 300;
     color: var(--brand-navy);
     margin-bottom: 1.25rem;
     text-transform: uppercase;
@@ -581,7 +567,7 @@ body {
 .exp-column h3 {
     font-family: var(--font-heading);
     font-size: 0.8rem;
-    font-weight: 400;
+    font-weight: 300;
     color: var(--brand-navy);
     margin-bottom: 1.5rem;
     text-transform: uppercase;
@@ -664,7 +650,7 @@ body {
     color: var(--primary-bg);
     text-decoration: none;
     font-family: var(--font-body);
-    font-weight: 400;
+    font-weight: 300;
     transition: var(--transition);
     letter-spacing: 0.5px;
 }
@@ -710,10 +696,6 @@ body {
         --section-padding: 72px;
     }
 
-   body {
-        -webkit-font-smoothing: subpixel-antialiased;
-    }
-   
     .hamburger {
         display: flex;
     }
@@ -767,13 +749,13 @@ body {
         font-size: 1.3rem;
     }
 
-    .bio-header {
+    .bio-float {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 2rem;
+        display: flex;
         flex-direction: column;
-        text-align: center;
-    }
-
-    .bio-image {
-        margin: 0 auto;
+        align-items: center;
     }
 
     .experience-grid {
