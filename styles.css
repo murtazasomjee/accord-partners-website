@@ -362,6 +362,7 @@ body {
     height: 180px;
     border-radius: 12px;
     object-fit: cover;
+    object-position: top;
     display: none;
     box-shadow: var(--shadow-md);
 }
