@@ -591,6 +591,14 @@ body {
     border-bottom: none;
 }
 
+
+.experience-footnote {
+    margin-top: 2rem;
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--text-light);
+    text-align: left;
+}
 /* ===== Contact Section ===== */
 .contact-section {
     background: linear-gradient(160deg, var(--brand-navy-deep) 0%, var(--brand-navy) 40%, var(--brand-navy-light) 100%);
